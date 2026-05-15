@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bugren导航 - 优质资源一站触达</title>
+  <meta name="description" content="Bugren导航，精选电子书、行业研报、AI资源、视频教程，优质资源一站触达">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-top">
+          <div class="site-logo">Bugren<span class="dot">.</span>导航</div>
+          <div class="site-slogan">优质资源，一站触达</div>
+        </div>
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="搜索资源名称、标签..." autocomplete="off">
+          <button class="search-clear" id="searchClear" title="清除">&times;</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Category Nav -->
+  <nav class="category-nav">
+    <div class="container">
+      <div class="category-tabs" id="categoryTabs">
+        <!-- Dynamic render -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="result-info" id="resultInfo"></div>
+    <div id="contentArea">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>加载中...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2024 <a href="https://bugren.com">Bugren.com</a> · 资源导航 · 仅供学习交流</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" title="回到顶部">↑</button>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
